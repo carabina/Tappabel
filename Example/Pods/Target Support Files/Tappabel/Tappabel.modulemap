@@ -1,0 +1,6 @@
+framework module Tappabel {
+  umbrella header "Tappabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

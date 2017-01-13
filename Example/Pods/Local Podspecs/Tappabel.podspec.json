@@ -1,0 +1,23 @@
+{
+  "name": "Tappabel",
+  "version": "0.1.0",
+  "summary": "A tappable UILabel written in Swift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ahmedabadie/Tappabel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ahmed Abdul Badie": "badie.ahmed@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/ahmedabadie/Tappabel.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/ahmedabadie",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Tappabel/Classes/**/*"
+}

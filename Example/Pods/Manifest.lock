@@ -1,0 +1,16 @@
+PODS:
+  - Tappabel (0.1.0)
+
+DEPENDENCIES:
+  - Tappabel (from `../`)
+
+EXTERNAL SOURCES:
+  Tappabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Tappabel: d017114c7e8f86505e06330673dc93855b0d899e
+
+PODFILE CHECKSUM: 9ec9d2cc15d6a5ae93a85693d26cc5d5507d1452
+
+COCOAPODS: 1.1.1
