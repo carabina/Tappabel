@@ -2,7 +2,7 @@
   "name": "Tappabel",
   "version": "0.1.0",
   "summary": "A tappable UILabel written in Swift.",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "A subclass of UILabel that adds tap functionality.",
   "homepage": "https://github.com/ahmedabadie/Tappabel",
   "license": {
     "type": "MIT",

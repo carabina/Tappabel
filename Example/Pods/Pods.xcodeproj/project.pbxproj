@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D6BF16516D594CC1F15E7BB46F1753B /* Tappebel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785F3F5949065F4B9A5FA4BF96BEFA56 /* Tappebel.swift */; };
 		2FCCC2EE6BA2FA6902F6BA07D318F626 /* Tappabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0704F4B4D7A18DA20327D8C92ABC074F /* Tappabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5517F15B06840D2C900A57C7EBBB1A8B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA09569BA711F80A1BAA467D439392CE /* ReplaceMe.swift */; };
-		5F73A6A39EF09C907F7E19C91B9B802F /* Tappabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 139E3FCB938A2C097EDDC2D43273229D /* Tappabel-dummy.m */; };
 		639E603E2FBA86D38D51426AEEF234E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		65CADA6D0C10FE65516784B7CB693987 /* Pods-Tappabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CA12320ECC3464F40D20BAA6BA9CF5 /* Pods-Tappabel_Example-dummy.m */; };
+		66A545015BF41DC243B381214833056D /* Tappabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 139E3FCB938A2C097EDDC2D43273229D /* Tappabel-dummy.m */; };
 		811E6B42C6D525A7BB050099BF3DE919 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		898395024CE4F43A35AFC44D92629643 /* Pods-Tappabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 779A218E2F2CECEE7C2F7335BF6F1471 /* Pods-Tappabel_Tests-dummy.m */; };
 		A55EA8A88BE28F143B9EF6C418954F90 /* Pods-Tappabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42062941924BB2D4F3A2216CFFE95B25 /* Pods-Tappabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -36,24 +36,25 @@
 		081474B771C3CB97759524E88B78EC97 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		139E3FCB938A2C097EDDC2D43273229D /* Tappabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Tappabel-dummy.m"; sourceTree = "<group>"; };
 		16F13004799FFE6C4F6D192AE9CAF67D /* Pods-Tappabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tappabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		17975D48422E54F602101B1DC223A277 /* Pods-Tappabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Tappabel_Example.modulemap"; sourceTree = "<group>"; };
+		17975D48422E54F602101B1DC223A277 /* Pods-Tappabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Tappabel_Example.modulemap"; sourceTree = "<group>"; };
 		3C610E2432461E15C94E9E58F615406B /* Pods-Tappabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tappabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		42062941924BB2D4F3A2216CFFE95B25 /* Pods-Tappabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tappabel_Tests-umbrella.h"; sourceTree = "<group>"; };
-		452B84C211CF97BEAEA4D1AFD708F3FD /* Pods-Tappabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Tappabel_Tests.modulemap"; sourceTree = "<group>"; };
+		452B84C211CF97BEAEA4D1AFD708F3FD /* Pods-Tappabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Tappabel_Tests.modulemap"; sourceTree = "<group>"; };
 		47CA12320ECC3464F40D20BAA6BA9CF5 /* Pods-Tappabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tappabel_Example-dummy.m"; sourceTree = "<group>"; };
 		4C1F43810CCCE2041CDD573B1BDB9863 /* Pods-Tappabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tappabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4C841CE061F1DBF9C77A87C0FD3C6CD3 /* Pods_Tappabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tappabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C841CE061F1DBF9C77A87C0FD3C6CD3 /* Pods_Tappabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Tappabel_Tests.framework; path = "Pods-Tappabel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EDE62365397B9C9195FB5CCB339C808 /* Pods-Tappabel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tappabel_Example-resources.sh"; sourceTree = "<group>"; };
-		5172DAD090F92F3C882551D0CE6AA927 /* Tappabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Tappabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5172DAD090F92F3C882551D0CE6AA927 /* Tappabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Tappabel.framework; path = Tappabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64D76090E9B96DCAC7C2F2B54E4F50D3 /* Pods-Tappabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tappabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		655EC6245B61F3D506CFE0E0C60DCD4B /* Pods-Tappabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tappabel_Example-umbrella.h"; sourceTree = "<group>"; };
 		6D669AAA67876B10F907AB11B66AE95F /* Pods-Tappabel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tappabel_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		779A218E2F2CECEE7C2F7335BF6F1471 /* Pods-Tappabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tappabel_Tests-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		785F3F5949065F4B9A5FA4BF96BEFA56 /* Tappebel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Tappebel.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		957AAF0FE6162AC9634498C26E658580 /* Pods-Tappabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tappabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A0A36D84FE470A2481133743845D17D5 /* Pods_Tappabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tappabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0A36D84FE470A2481133743845D17D5 /* Pods_Tappabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Tappabel_Example.framework; path = "Pods-Tappabel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4535E7B0D6B37777F4AE134F4354C41 /* Pods-Tappabel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tappabel_Tests-resources.sh"; sourceTree = "<group>"; };
-		A5D78C632753A0E9D7D5EB111BE78A50 /* Tappabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Tappabel.modulemap; sourceTree = "<group>"; };
+		A5D78C632753A0E9D7D5EB111BE78A50 /* Tappabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Tappabel.modulemap; sourceTree = "<group>"; };
 		AAB5ECEBAB8E5CB76C513BC086A72BDE /* Tappabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Tappabel.xcconfig; sourceTree = "<group>"; };
 		B966B4A5826E5498F38BF8D2508C7DE0 /* Pods-Tappabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tappabel_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C4DE00D4436C8A377CB36E96BADE9EB8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,7 +62,6 @@
 		CC5C43B5C1B7C7CE2A2E63A8CA5982DB /* Pods-Tappabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tappabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E0D8F061F8C03E017A7F1A79800E9028 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E98C28915828CA22DFEBACD2E9B6FE93 /* Pods-Tappabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tappabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EA09569BA711F80A1BAA467D439392CE /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +92,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00BBDFA400E67A060C1CD9A5D698E3A2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				785F3F5949065F4B9A5FA4BF96BEFA56 /* Tappebel.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		16A30237C5C166202EDB68674015D0A5 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,26 +113,10 @@
 			isa = PBXGroup;
 			children = (
 				B75B0C0C70DF1198C1645FD79B6DF5FC /* Support Files */,
-				526B0D08448F0339B2BABCD89B371B0D /* Tappabel */,
+				FFA81FD925D6389D54DBCB8BA0F52B1D /* Tappabel */,
 			);
 			name = Tappabel;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		35C8496835BF855EF22A6FC625455B0F /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				EA09569BA711F80A1BAA467D439392CE /* ReplaceMe.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		526B0D08448F0339B2BABCD89B371B0D /* Tappabel */ = {
-			isa = PBXGroup;
-			children = (
-				35C8496835BF855EF22A6FC625455B0F /* Classes */,
-			);
-			path = Tappabel;
 			sourceTree = "<group>";
 		};
 		56564C646BD8866755DC9DB9640A1A77 /* Pods-Tappabel_Tests */ = {
@@ -222,6 +215,15 @@
 			path = "Target Support Files/Pods-Tappabel_Example";
 			sourceTree = "<group>";
 		};
+		FFA81FD925D6389D54DBCB8BA0F52B1D /* Tappabel */ = {
+			isa = PBXGroup;
+			children = (
+				00BBDFA400E67A060C1CD9A5D698E3A2 /* Classes */,
+			);
+			name = Tappabel;
+			path = Tappabel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -273,7 +275,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 405F864D20CC2234C72F2BFF95F1C8FF /* Build configuration list for PBXNativeTarget "Tappabel" */;
 			buildPhases = (
-				DA189EE7AFE2297DC00FA4564CB0F76B /* Sources */,
+				A473D841BF12855039E273DC28DD0B2D /* Sources */,
 				B75113D409203D2A525990C576CEFBB9 /* Frameworks */,
 				BEB63C8DA9ECE94FB01295A38A01F6FB /* Headers */,
 			);
@@ -312,14 +314,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					B79424D1C857B5A48A21B7B7D924F9F2 = {
-						LastSwiftMigration = 0820;
-					};
-					FF8F9016361EB56F0834DFB1FE3A77BB = {
-						LastSwiftMigration = 0820;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -357,12 +351,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA189EE7AFE2297DC00FA4564CB0F76B /* Sources */ = {
+		A473D841BF12855039E273DC28DD0B2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5517F15B06840D2C900A57C7EBBB1A8B /* ReplaceMe.swift in Sources */,
-				5F73A6A39EF09C907F7E19C91B9B802F /* Tappabel-dummy.m in Sources */,
+				66A545015BF41DC243B381214833056D /* Tappabel-dummy.m in Sources */,
+				0D6BF16516D594CC1F15E7BB46F1753B /* Tappebel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,7 +436,6 @@
 				PRODUCT_NAME = Pods_Tappabel_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -663,7 +656,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
