@@ -1,6 +1,5 @@
 # Tappabel
 
-[![CI Status](http://img.shields.io/travis/Ahmed Abdul Badie/Tappabel.svg?style=flat)](https://travis-ci.org/Ahmed Abdul Badie/Tappabel)
 [![Version](https://img.shields.io/cocoapods/v/Tappabel.svg?style=flat)](http://cocoapods.org/pods/Tappabel)
 [![License](https://img.shields.io/cocoapods/l/Tappabel.svg?style=flat)](http://cocoapods.org/pods/Tappabel)
 [![Platform](https://img.shields.io/cocoapods/p/Tappabel.svg?style=flat)](http://cocoapods.org/pods/Tappabel)
@@ -22,7 +21,7 @@ pod "Tappabel"
 
 ## Author
 
-Ahmed Abdul Badie, badie.ahmed@icloud.com
+Ahmed Abdelbadie, badie.ahmed@icloud.com
 
 ## License
 

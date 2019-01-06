@@ -8,7 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Tappabel'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
+  s.swift_version    = '4.2'
   s.summary          = 'A tappable UILabel written in Swift.'
 
 # This description is used to generate tags and improve search results.
@@ -20,21 +21,12 @@ Pod::Spec.new do |s|
   s.description      = 'A subclass of UILabel that adds tap functionality.'
 
   s.homepage         = 'https://github.com/ahmedabadie/Tappabel'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Ahmed Abdul Badie' => 'badie.ahmed@icloud.com' }
+  s.author           = { 'Ahmed Abdelbadie' => 'badie.ahmed@icloud.com' }
   s.source           = { :git => 'https://github.com/ahmedabadie/Tappabel.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/ahmedabadie'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'Tappabel/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'Tappabel' => ['Tappabel/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
